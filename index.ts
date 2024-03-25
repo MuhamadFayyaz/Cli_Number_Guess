@@ -6,7 +6,9 @@ import inquirer from "inquirer";
 // 2=input from the user 
 // 3= compaire input with generated number then show result 
 
-const randomNumber: number = Math.floor(Math.random() * 6 +1 ); // Math.floor(Math.random() * 6 + 1) will generate numbers rnadomely
+const randomNumber: number = Math.floor(Math.random() * 6 +1 ); // Math.floor(Math.random() * 6 + 1) will generate numbers 
+
+console.log(" WELCOME TO NUMBER GUESSING GAME ")
 const answer = await inquirer.prompt([
     {
         name : "userGuessNumber", // name is the key and "userGuessNumber" is the value
